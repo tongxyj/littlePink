@@ -6,7 +6,9 @@
 //
 
 import UIKit
-let kMainSegmentCellId = "MainSegmentCellId"
+
+let kTabBarHeight = (UIScreen.main.bounds.size.height >= 812 ? 83:49)
+
 let kMainColor = "main"
 
 let KFont16 = UIFont.systemFont(ofSize: 16)

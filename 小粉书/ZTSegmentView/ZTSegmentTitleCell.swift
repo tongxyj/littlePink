@@ -9,7 +9,7 @@ import UIKit
 import SnapKit
 
 
-class SegmentCell: UICollectionViewCell {
+class ZTSegmentTitleCell: UICollectionViewCell {
     
     lazy var titleLabel: UILabel = {
        let label = UILabel()

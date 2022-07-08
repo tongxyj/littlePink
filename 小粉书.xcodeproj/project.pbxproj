@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A327EDEB2877D045007A3680 /* ZTSegmentTitleView+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EDEA2877D045007A3680 /* ZTSegmentTitleView+CollectionView.swift */; };
+		A327EDEE2877F728007A3680 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EDED2877F728007A3680 /* DiscoveryViewController.swift */; };
+		A327EDF32877F96C007A3680 /* ZTSegmentContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EDF22877F96C007A3680 /* ZTSegmentContainerView.swift */; };
+		A327EDF52877F9B9007A3680 /* ZTSegmentContainerView+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EDF42877F9B9007A3680 /* ZTSegmentContainerView+CollectionView.swift */; };
+		A327EDF82877FBEE007A3680 /* ZTSegmentContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EDF72877FBEE007A3680 /* ZTSegmentContainerCell.swift */; };
+		A327EDFA2877FD24007A3680 /* ZTSegmentViewConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EDF92877FD24007A3680 /* ZTSegmentViewConst.swift */; };
+		A327EDFC28781582007A3680 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EDFB28781582007A3680 /* FollowViewController.swift */; };
+		A327EDFF2878159E007A3680 /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EDFE2878159E007A3680 /* NearbyViewController.swift */; };
+		A327EE012878263F007A3680 /* HomeViewController+ZTSegmentTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EE002878263F007A3680 /* HomeViewController+ZTSegmentTitleView.swift */; };
 		A39FBAD628751F3500243935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FBAD528751F3500243935 /* AppDelegate.swift */; };
 		A39FBAD828751F3500243935 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FBAD728751F3500243935 /* SceneDelegate.swift */; };
 		A39FBAE028751F3500243935 /* ___.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A39FBADE28751F3500243935 /* ___.xcdatamodeld */; };
@@ -18,15 +27,24 @@
 		A39FBAF428752E2D00243935 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FBAF328752E2D00243935 /* MineViewController.swift */; };
 		A39FBAFA2875346B00243935 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FBAF92875346B00243935 /* UIColor.swift */; };
 		A39FBAFD28753A3500243935 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FBAFC28753A3500243935 /* NoteViewController.swift */; };
-		A39FBAFF28755D3500243935 /* HomeSegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FBAFE28755D3500243935 /* HomeSegmentView.swift */; };
+		A39FBAFF28755D3500243935 /* ZTSegmentTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FBAFE28755D3500243935 /* ZTSegmentTitleView.swift */; };
 		A39FBB0228756C4B00243935 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FBB0128756C4B00243935 /* Const.swift */; };
-		A39FBB0528756C9800243935 /* SegmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FBB0428756C9800243935 /* SegmentCell.swift */; };
+		A39FBB0528756C9800243935 /* ZTSegmentTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FBB0428756C9800243935 /* ZTSegmentTitleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0658B26970E8A308F9853F44 /* Pods-小粉书.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小粉书.debug.xcconfig"; path = "Target Support Files/Pods-小粉书/Pods-小粉书.debug.xcconfig"; sourceTree = "<group>"; };
 		16BBFFCCDF3DC68723CE0363 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD877046C562D4297E2C3F2 /* Pods-小粉书.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-小粉书.release.xcconfig"; path = "Target Support Files/Pods-小粉书/Pods-小粉书.release.xcconfig"; sourceTree = "<group>"; };
+		A327EDEA2877D045007A3680 /* ZTSegmentTitleView+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZTSegmentTitleView+CollectionView.swift"; sourceTree = "<group>"; };
+		A327EDED2877F728007A3680 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		A327EDF22877F96C007A3680 /* ZTSegmentContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTSegmentContainerView.swift; sourceTree = "<group>"; };
+		A327EDF42877F9B9007A3680 /* ZTSegmentContainerView+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZTSegmentContainerView+CollectionView.swift"; sourceTree = "<group>"; };
+		A327EDF72877FBEE007A3680 /* ZTSegmentContainerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTSegmentContainerCell.swift; sourceTree = "<group>"; };
+		A327EDF92877FD24007A3680 /* ZTSegmentViewConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTSegmentViewConst.swift; sourceTree = "<group>"; };
+		A327EDFB28781582007A3680 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
+		A327EDFE2878159E007A3680 /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
+		A327EE002878263F007A3680 /* HomeViewController+ZTSegmentTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+ZTSegmentTitleView.swift"; sourceTree = "<group>"; };
 		A39FBAD228751F3500243935 /* 小粉书.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小粉书.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39FBAD528751F3500243935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A39FBAD728751F3500243935 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,9 +58,9 @@
 		A39FBAF328752E2D00243935 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		A39FBAF92875346B00243935 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		A39FBAFC28753A3500243935 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
-		A39FBAFE28755D3500243935 /* HomeSegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSegmentView.swift; sourceTree = "<group>"; };
+		A39FBAFE28755D3500243935 /* ZTSegmentTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTSegmentTitleView.swift; sourceTree = "<group>"; };
 		A39FBB0128756C4B00243935 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
-		A39FBB0428756C9800243935 /* SegmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentCell.swift; sourceTree = "<group>"; };
+		A39FBB0428756C9800243935 /* ZTSegmentTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTSegmentTitleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,29 @@
 				2BD877046C562D4297E2C3F2 /* Pods-小粉书.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		A327EDEC2877F6F4007A3680 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A39FBAEC28752DD800243935 /* ViewController */,
+				A39FBB0028756C1100243935 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A327EDF62877F9E8007A3680 /* ZTSegmentView */ = {
+			isa = PBXGroup;
+			children = (
+				A39FBAFE28755D3500243935 /* ZTSegmentTitleView.swift */,
+				A327EDEA2877D045007A3680 /* ZTSegmentTitleView+CollectionView.swift */,
+				A39FBB0428756C9800243935 /* ZTSegmentTitleCell.swift */,
+				A327EDF22877F96C007A3680 /* ZTSegmentContainerView.swift */,
+				A327EDF42877F9B9007A3680 /* ZTSegmentContainerView+CollectionView.swift */,
+				A327EDF72877FBEE007A3680 /* ZTSegmentContainerCell.swift */,
+				A327EDF92877FD24007A3680 /* ZTSegmentViewConst.swift */,
+			);
+			path = ZTSegmentView;
 			sourceTree = "<group>";
 		};
 		A39FBAC928751F3500243935 = {
@@ -86,10 +127,14 @@
 		A39FBAD428751F3500243935 /* 小粉书 */ = {
 			isa = PBXGroup;
 			children = (
+				A327EDF62877F9E8007A3680 /* ZTSegmentView */,
 				A39FBAD528751F3500243935 /* AppDelegate.swift */,
 				A39FBAD728751F3500243935 /* SceneDelegate.swift */,
-				A39FBAEC28752DD800243935 /* ViewController */,
-				A39FBB0028756C1100243935 /* view */,
+				A39FBAEF28752E1500243935 /* StoreViewController.swift */,
+				A39FBAFC28753A3500243935 /* NoteViewController.swift */,
+				A39FBAF128752E2300243935 /* MessageViewController.swift */,
+				A39FBAF328752E2D00243935 /* MineViewController.swift */,
+				A327EDEC2877F6F4007A3680 /* Home */,
 				A39FBAFB2875347400243935 /* Utilis */,
 				A39FBAE128751F3900243935 /* Assets.xcassets */,
 				A39FBAE328751F3900243935 /* LaunchScreen.storyboard */,
@@ -103,10 +148,10 @@
 			isa = PBXGroup;
 			children = (
 				A39FBAED28752E0400243935 /* HomeViewController.swift */,
-				A39FBAEF28752E1500243935 /* StoreViewController.swift */,
-				A39FBAFC28753A3500243935 /* NoteViewController.swift */,
-				A39FBAF128752E2300243935 /* MessageViewController.swift */,
-				A39FBAF328752E2D00243935 /* MineViewController.swift */,
+				A327EE002878263F007A3680 /* HomeViewController+ZTSegmentTitleView.swift */,
+				A327EDED2877F728007A3680 /* DiscoveryViewController.swift */,
+				A327EDFB28781582007A3680 /* FollowViewController.swift */,
+				A327EDFE2878159E007A3680 /* NearbyViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -120,19 +165,17 @@
 			path = Utilis;
 			sourceTree = "<group>";
 		};
-		A39FBB0028756C1100243935 /* view */ = {
+		A39FBB0028756C1100243935 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				A39FBB0328756C6F00243935 /* Cell */,
-				A39FBAFE28755D3500243935 /* HomeSegmentView.swift */,
 			);
-			path = view;
+			path = View;
 			sourceTree = "<group>";
 		};
 		A39FBB0328756C6F00243935 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				A39FBB0428756C9800243935 /* SegmentCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -260,17 +303,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39FBAF028752E1600243935 /* StoreViewController.swift in Sources */,
+				A327EDFA2877FD24007A3680 /* ZTSegmentViewConst.swift in Sources */,
+				A327EDFF2878159E007A3680 /* NearbyViewController.swift in Sources */,
+				A327EDF52877F9B9007A3680 /* ZTSegmentContainerView+CollectionView.swift in Sources */,
 				A39FBAE028751F3500243935 /* ___.xcdatamodeld in Sources */,
+				A327EE012878263F007A3680 /* HomeViewController+ZTSegmentTitleView.swift in Sources */,
 				A39FBAD628751F3500243935 /* AppDelegate.swift in Sources */,
-				A39FBB0528756C9800243935 /* SegmentCell.swift in Sources */,
+				A327EDEE2877F728007A3680 /* DiscoveryViewController.swift in Sources */,
+				A327EDFC28781582007A3680 /* FollowViewController.swift in Sources */,
+				A39FBB0528756C9800243935 /* ZTSegmentTitleCell.swift in Sources */,
+				A327EDF32877F96C007A3680 /* ZTSegmentContainerView.swift in Sources */,
 				A39FBAFA2875346B00243935 /* UIColor.swift in Sources */,
 				A39FBAFD28753A3500243935 /* NoteViewController.swift in Sources */,
 				A39FBAF428752E2D00243935 /* MineViewController.swift in Sources */,
 				A39FBAD828751F3500243935 /* SceneDelegate.swift in Sources */,
 				A39FBAF228752E2300243935 /* MessageViewController.swift in Sources */,
 				A39FBAEE28752E0400243935 /* HomeViewController.swift in Sources */,
-				A39FBAFF28755D3500243935 /* HomeSegmentView.swift in Sources */,
+				A39FBAFF28755D3500243935 /* ZTSegmentTitleView.swift in Sources */,
 				A39FBB0228756C4B00243935 /* Const.swift in Sources */,
+				A327EDEB2877D045007A3680 /* ZTSegmentTitleView+CollectionView.swift in Sources */,
+				A327EDF82877FBEE007A3680 /* ZTSegmentContainerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
