@@ -16,11 +16,11 @@ class DiscoveryViewController: UIViewController {
     lazy var containerView: ZTSegmentContainerView = {
         ZTSegmentContainerView()
     }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //顶部tab
         let chaneels = ["推荐","旅行","娱乐","才艺","美妆","白富美","美食","萌宠"]
-        view.backgroundColor = .red
         segmentTitleView.segmentTitles = chaneels
         segmentTitleView.sliderHeight = 3
         segmentTitleView.isShowSlider = false
@@ -31,14 +31,28 @@ class DiscoveryViewController: UIViewController {
         }
         
         //containerview
-//        view.addSubview(containerView)
-//        containerView.contentView = view
-//        containerView.collectionViewitemsCount = Chaneels.count
-//        containerView.snp.makeConstraints { make in
-//            make.top.equalTo(segmentTitleView.snp.bottom)
-//            make.left.right.equalTo(view)
-//            make.bottom.equalTo(-kTabBarHeight)
-//        }
+        containerView.collectionViewitemsCount = chaneels.count
+        let layout = WaterfallLayout()
+        layout.delegate = self
+        layout.scrollDirection = .vertical
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
+        
+        let images = [Int](1...10).map { num in
+            "\(num)"
+        }
+        
+        let waterfallVC = WaterfallViewController(collectionViewLayout: layout)
+        waterfallVC.waterfallImages = images
+        self.addChild(waterfallVC)
+        waterfallVC.didMove(toParent: self)
+        
+        containerView.contentViews = [waterfallVC.view]
+        
+        view.addSubview(containerView)
+        containerView.snp.makeConstraints { make in
+            make.top.equalTo(segmentTitleView.snp.bottom)
+            make.left.right.bottom.equalTo(view)
+        }
     }
     
 
@@ -52,4 +66,21 @@ class DiscoveryViewController: UIViewController {
     }
     */
 
+}
+
+extension DiscoveryViewController: WaterfallLayoutDelegate {
+    func waterfallLayoutColumns() -> Int {
+        2
+    }
+    
+    func waterfallLayout(_ waterfallLayout: WaterfallLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//        CGFloat(arc4random_uniform(100))+20
+//        let images = [Int](1...10).map { num in
+//            "\(num)"
+//        }
+       
+        UIImage(named: "\(indexPath.item + 1)")!.size
+    }
+    
+    
 }

@@ -16,6 +16,9 @@
 		A327EDFC28781582007A3680 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EDFB28781582007A3680 /* FollowViewController.swift */; };
 		A327EDFF2878159E007A3680 /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EDFE2878159E007A3680 /* NearbyViewController.swift */; };
 		A327EE012878263F007A3680 /* HomeViewController+ZTSegmentTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EE002878263F007A3680 /* HomeViewController+ZTSegmentTitleView.swift */; };
+		A327EE0428797780007A3680 /* WaterfallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EE0328797780007A3680 /* WaterfallLayout.swift */; };
+		A327EE0628798B48007A3680 /* WaterfallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EE0528798B48007A3680 /* WaterfallViewController.swift */; };
+		A327EE0828798BA8007A3680 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A327EE0728798BA8007A3680 /* WaterfallCell.swift */; };
 		A39FBAD628751F3500243935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FBAD528751F3500243935 /* AppDelegate.swift */; };
 		A39FBAD828751F3500243935 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39FBAD728751F3500243935 /* SceneDelegate.swift */; };
 		A39FBAE028751F3500243935 /* ___.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A39FBADE28751F3500243935 /* ___.xcdatamodeld */; };
@@ -45,6 +48,9 @@
 		A327EDFB28781582007A3680 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
 		A327EDFE2878159E007A3680 /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
 		A327EE002878263F007A3680 /* HomeViewController+ZTSegmentTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+ZTSegmentTitleView.swift"; sourceTree = "<group>"; };
+		A327EE0328797780007A3680 /* WaterfallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallLayout.swift; sourceTree = "<group>"; };
+		A327EE0528798B48007A3680 /* WaterfallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallViewController.swift; sourceTree = "<group>"; };
+		A327EE0728798BA8007A3680 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
 		A39FBAD228751F3500243935 /* 小粉书.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小粉书.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A39FBAD528751F3500243935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A39FBAD728751F3500243935 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +112,16 @@
 			path = ZTSegmentView;
 			sourceTree = "<group>";
 		};
+		A327EE022879718D007A3680 /* WaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A327EE0328797780007A3680 /* WaterfallLayout.swift */,
+				A327EE0528798B48007A3680 /* WaterfallViewController.swift */,
+				A327EE0728798BA8007A3680 /* WaterfallCell.swift */,
+			);
+			path = WaterfallLayout;
+			sourceTree = "<group>";
+		};
 		A39FBAC928751F3500243935 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +143,7 @@
 		A39FBAD428751F3500243935 /* 小粉书 */ = {
 			isa = PBXGroup;
 			children = (
+				A327EE022879718D007A3680 /* WaterfallLayout */,
 				A327EDF62877F9E8007A3680 /* ZTSegmentView */,
 				A39FBAD528751F3500243935 /* AppDelegate.swift */,
 				A39FBAD728751F3500243935 /* SceneDelegate.swift */,
@@ -303,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A39FBAF028752E1600243935 /* StoreViewController.swift in Sources */,
+				A327EE0628798B48007A3680 /* WaterfallViewController.swift in Sources */,
 				A327EDFA2877FD24007A3680 /* ZTSegmentViewConst.swift in Sources */,
 				A327EDFF2878159E007A3680 /* NearbyViewController.swift in Sources */,
 				A327EDF52877F9B9007A3680 /* ZTSegmentContainerView+CollectionView.swift in Sources */,
@@ -314,12 +332,14 @@
 				A39FBB0528756C9800243935 /* ZTSegmentTitleCell.swift in Sources */,
 				A327EDF32877F96C007A3680 /* ZTSegmentContainerView.swift in Sources */,
 				A39FBAFA2875346B00243935 /* UIColor.swift in Sources */,
+				A327EE0428797780007A3680 /* WaterfallLayout.swift in Sources */,
 				A39FBAFD28753A3500243935 /* NoteViewController.swift in Sources */,
 				A39FBAF428752E2D00243935 /* MineViewController.swift in Sources */,
 				A39FBAD828751F3500243935 /* SceneDelegate.swift in Sources */,
 				A39FBAF228752E2300243935 /* MessageViewController.swift in Sources */,
 				A39FBAEE28752E0400243935 /* HomeViewController.swift in Sources */,
 				A39FBAFF28755D3500243935 /* ZTSegmentTitleView.swift in Sources */,
+				A327EE0828798BA8007A3680 /* WaterfallCell.swift in Sources */,
 				A39FBB0228756C4B00243935 /* Const.swift in Sources */,
 				A327EDEB2877D045007A3680 /* ZTSegmentTitleView+CollectionView.swift in Sources */,
 				A327EDF82877FBEE007A3680 /* ZTSegmentContainerCell.swift in Sources */,

@@ -14,8 +14,12 @@ extension ZTSegmentContainerView: UICollectionViewDelegate, UICollectionViewData
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kZTSegmentContainerCellId, for: indexPath) as! ZTSegmentContainerCell
-        let contentView = contentViews[indexPath.item]
-        cell.displayView = contentView
+    
+        if contentViews.count > 0 && indexPath.item < contentViews.count {
+            let contentView = contentViews[indexPath.item]
+            cell.displayView = contentView
+        }
+       
        return cell
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {

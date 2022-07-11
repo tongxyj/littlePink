@@ -10,16 +10,8 @@ import SnapKit
 
 class ZTSegmentContainerView: UIView {
     
-    var collectionViewitemsCount = 0 {
-        willSet{
-//            containerCollectionView.reloadData()
-        }
-    }
-    var contentViews: [UIView] = [] {
-        willSet {
-            
-        }
-    }
+    var collectionViewitemsCount = 0
+    var contentViews: [UIView] = []
     
     lazy var containerCollectionView: UICollectionView = {
         
